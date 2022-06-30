@@ -1,7 +1,12 @@
 import './home.css';
 import Headshot from '../../images/headshot2.png';
+import { ThemeContext } from "../../context";
+import { useContext } from "react";
 
 const Home = () => {
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+
     return (
         <div className="home">
             <div className="home-left">
@@ -80,7 +85,7 @@ const Home = () => {
                 </svg>
             </div> 
             <div className="home-right">
-                <div className="home-bg"></div>
+                <div className="home-bg" style={{ backgroundColor: darkMode ? "rgb(234, 229, 218)" : "rgb(14, 14, 14)" }}></div>
                 <img src={Headshot} alt="Picture of me" className="home-img" />
             </div>
         </div>

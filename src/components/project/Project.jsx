@@ -13,7 +13,12 @@ const Project = ({ img, link, desc }) => {
                     <img src={img} alt="projects" className="project-img" />
                 </a>   
             </div>
-            <p className="project-desc">{desc}</p>
+            <ul className="project-desc">
+                {desc.map((lang) => (
+                    <li className="project-desc-item">      {lang}
+                    </li>
+                ))}
+            </ul>
         </div>
     )
 }

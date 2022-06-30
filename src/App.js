@@ -10,6 +10,7 @@ import { useContext } from "react";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  
   return (
     <div className="App" style={{
       backgroundColor: darkMode ? "rgb(14, 14, 14)" : "rgb(234, 229, 218)",

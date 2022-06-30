@@ -15,6 +15,8 @@
 
 .about-right {
     flex: 1;
+    padding: 20px;
+    line-height: 28px;
 }
 
 .about-card.bg {
@@ -40,6 +42,7 @@
 
 .about-title {
     font-weight: 400;
+    margin-top: 20px;
 }
 
 .about-sub {
@@ -51,7 +54,8 @@
     padding: 20px 0px;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 900px) {
     .about {
       flex-direction: column;
       text-align: center;
@@ -69,9 +73,5 @@
 
     .about-card.bg {
       display: none;
-    }
-
-    .about-right {
-      padding: 20px;
     }
 }

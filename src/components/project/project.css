@@ -4,17 +4,15 @@
   align-items: center;
   margin: 20px;
   width: 400px;
-  line-height: 30px;
-  
 }
 
 .project {
-    width: 400px;
     height: 40vh;
     margin: 20px 20px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+    width: 90%;
 }
 
 .project-browser {
@@ -55,13 +53,19 @@
     height: 100%;
     transition: all 10s ease;
   }
+
+.project-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-desc-item {
+  list-style: circle;
+  padding: 5px;
+}
   
   .project:hover .project-img {
     transform: translateY(-100%);
   }
   
-  @media screen and (max-width: 600px) {
-    .project {
-      width: 110%;
-    }
-  }
