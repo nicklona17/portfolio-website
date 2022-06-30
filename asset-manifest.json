@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.4db5ea72.css",
-    "main.js": "/portfolio-website/static/js/main.3dd35df7.js",
+    "main.css": "/portfolio-website/static/css/main.9892f7c1.css",
+    "main.js": "/portfolio-website/static/js/main.9e703125.js",
     "static/media/jess-kalahar-photography.png": "/portfolio-website/static/media/jess-kalahar-photography.6623599f49ba7a407c4f.png",
     "static/media/drum-photo.png": "/portfolio-website/static/media/drum-photo.c46eafd9e47c5c60c751.png",
     "static/media/headshot2.png": "/portfolio-website/static/media/headshot2.810a9526743d97bc48bb.png",
@@ -13,11 +13,11 @@
     "static/media/phone.png": "/portfolio-website/static/media/phone.d90a6d23cf5129d853bb.png",
     "static/media/moon.png": "/portfolio-website/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/portfolio-website/index.html",
-    "main.4db5ea72.css.map": "/portfolio-website/static/css/main.4db5ea72.css.map",
-    "main.3dd35df7.js.map": "/portfolio-website/static/js/main.3dd35df7.js.map"
+    "main.9892f7c1.css.map": "/portfolio-website/static/css/main.9892f7c1.css.map",
+    "main.9e703125.js.map": "/portfolio-website/static/js/main.9e703125.js.map"
   },
   "entrypoints": [
-    "static/css/main.4db5ea72.css",
-    "static/js/main.3dd35df7.js"
+    "static/css/main.9892f7c1.css",
+    "static/js/main.9e703125.js"
   ]
 }
